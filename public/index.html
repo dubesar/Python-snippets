@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <link href="https://myCDN.com/prism@v1.x/themes/prism.css" rel="stylesheet" />
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    <script src="https://myCDN.com/prism@v1.x/components/prism-core.min.js"></script>
+    <script src="https://myCDN.com/prism@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+    
+    <header class="text-gray-900 bg-white body-font shadow w-full mb-24">
+        <div class="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
+            <a
+                class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center lg:items-center lg:justify-center mb-4 md:mb-0">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" style="height: 40px; margin-top: 10px; margin-bottom: 10px;"
+                    alt="logo">
+
+                <span class="ml-3 text-xl">Python Snippets</span>
+            </a>
+            <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+                <a href="https://www.buymeacoffee.com/dubesar" class="bg-indigo-700 hover:bg-indigo-500 text-white ml-4 py-2 px-3 rounded-lg">
+                    Donate
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="flex ml-24 mr-24 h-screen">
+        <div class="flex flex-col flex-1 mr-8">
+            <div class="bg-gray-400 h-36 mb-4">
+                <div class = "pl-4">
+                    <p class = "font-mono font-bold pt-4 mb-4">Memory</p>
+                    <pre><code class="language-css">import sys</code></pre>
+                    <pre><code class="language-css">variable = 30</code></pre>
+                    <pre><code class="language-css">print(sys.getsizeof(variable)) #24</code></pre>
+                    <!-- <pre><code class="language-css">import collecitons</code></pre> -->
+                </div>
+            </div>
+            <div class="bg-gray-500 h-36 mb-4">
+                <div class = "pl-4 pb-4">
+                    <p class = "font-mono font-bold pt-4 mb-4">String N times</p>
+                    <pre><code class="language-css">n = 2</code></pre>
+                    <pre><code class="language-css">s = "New"</code></pre>
+                    <pre><code class="language-css">print(s*n) #NewNew</code></pre>
+                    <!-- <pre><code class="language-css">import collecitons</code></pre> -->
+                </div>
+            </div>
+            <div class="bg-gray-500 h-64 mb-4"></div>
+        </div>
+        
+        <!-- Three columns -->
+        <div class="flex flex-col flex-1 ml-8 mr-8">
+            <div class="bg-gray-400 h-48 mb-4"></div>
+            <div class="bg-gray-500 h-24 mb-4"></div>
+            <div class="bg-gray-400 h-24 mb-4"></div>
+        </div>
+        
+        <!-- Four columns -->
+        <div class="flex flex-col flex-1 ml-8 mr-8">
+            <div class="bg-gray-400 h-24 mb-4"></div>
+            <div class="bg-gray-500 h-48 mb-4"></div>
+            <div class="bg-gray-400 h-48 mb-4"></div>
+        </div>
+
+
+        <div class="flex flex-col flex-1 ml-8 mr-8">
+            <div class="bg-gray-400 h-24 mb-4"></div>
+            <div class="bg-gray-500 h-48 mb-4"></div>
+            <div class="bg-gray-400 h-48 mb-4"></div>
+        </div>
+    </div>
+</body>
+</html>
