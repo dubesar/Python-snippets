@@ -13,6 +13,7 @@
     <script src="https://myCDN.com/prism@v1.x/components/prism-core.min.js"></script>
     <script src="https://myCDN.com/prism@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
     
+    <!-- header section -->
     <header class="text-gray-900 bg-white body-font shadow w-full mb-24">
         <div class="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
             <a
@@ -29,6 +30,8 @@
             </div>
         </div>
     </header>
+    <!-- header section complete -->
+    <!-- first column start -->
     <div class="flex ml-24 mr-24 h-screen">
         <div class="flex flex-col flex-1 mr-8">
             <div class="bg-gray-400 h-40 mb-4">
@@ -70,8 +73,9 @@
                 </div>
             </div>
         </div>
+        <!-- first column end -->
         
-        <!-- Three columns -->
+        <!-- second column starts -->
         <div class="flex flex-col flex-1 ml-8 mr-8">
             <div class="bg-gray-400 h-40 mb-4">
                 <div class = "pl-4 pb-4">
@@ -105,9 +109,19 @@
                     <!-- <pre><code class="language-css">import collecitons</code></pre> -->
                 </div>
             </div>
+            <div class="bg-gray-400 h-28 mb-4">
+                <div class = "pl-4 pb-4">
+                    <p class = "font-mono font-bold pt-4 mb-4">Most Frequent</p>
+                    <pre><code class="language-python">def most_frequent(list):</code></pre>
+                    <pre><code class="language-python">  return max(set(list),key = list.count)</code></pre>
+                    <!-- <pre><code class="language-python">print("abcbc")  #True</code></pre> -->
+                    <!-- <pre><code class="language-css">import collecitons</code></pre> -->
+                </div>
+            </div>
         </div>
+        <!-- second column ends -->
         
-        <!-- Four columns -->
+        <!-- third column starts -->
         <div class="flex flex-col flex-1 ml-8 mr-8">
             <div class="bg-gray-400 h-32 mb-4">
                 <div class = "pl-4 pb-4">
@@ -133,9 +147,18 @@
                     <!-- <pre><code class="language-css">import collecitons</code></pre> -->
                 </div>
             </div>
+            <div class="bg-gray-400 h-30 mb-4">
+                <div class = "pl-4 pb-4">
+                    <p class = "font-mono font-bold pt-4 mb-4">Convert List to Dictionary</p>
+                    <pre><code class="language-python">def to_dictionary(keys, values):</code></pre>
+                    <pre><code class="language-python">   return dict(zip(keys, values))</code></pre>
+                    <!-- <pre><code class="language-css">import collecitons</code></pre> -->
+                </div>
+            </div>
         </div>
+        <!-- third column ends -->
 
-
+        <!-- fourth column starts -->
         <div class="flex flex-col flex-1 ml-8 mr-8">
             <div class="bg-gray-400 h-32 mb-4">
                 <div class = "pl-4 pb-4">
@@ -164,6 +187,7 @@
                 </div>
             </div>
         </div>
+        <!-- fourth column ends -->
     </div>
 </body>
 </html>
